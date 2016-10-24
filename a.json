@@ -9,7 +9,7 @@
     "phone": "13860386855",
     "email": "liaosl1234@gmail.com",
     "wechat": {
-      "id": "liaosl1234",
+      "id": "joyee-cheung",
       "qrcode": "static/wechat.jpg"
     },
     "sinaweibo": {
@@ -18,9 +18,9 @@
     },
     "github": {
       "id": "Tokaya"
-    }
-  },
-  "links":[{
+     },
+   },
+   "links": [{
     "type": "pdf",
     "url": "static/joyeecheung.pdf"
     }],
@@ -38,30 +38,28 @@
     "type": "english",
     "certificate": [{
       "type": "IELTS",
-      "full": "9",
+      "full": "10",
       "score": "6.5"
     }],
     "description": [
       "能够阅读英文文档及相关资料",
-      "可观看带英文字幕的 `MOOC` 课程",
+      "可观看带英文字幕的 MOOC 课程",
       "能够用英文邮件正常交流"
     ]
   }],
-  "experience": [ {
-    "type": "project",
-    "techtype": "backtend",
-    "project_type": "personal",
-    "name": "个人网站",
-    "source": "https://github.com/Tokaya/web",
-    "demo": "http://tokaya.cc",
-    "description": [
-      "现有基本的注册用户，登陆，微博，博客，论坛等功能",
-      "微博实现了带用户头像的评论，删除自己的微博；博客、论坛可发表支持部分 `markdown` 语法的文本",
-      "后端使用 `Flask` 开发，使用了 `MySQL` 作为数据库",
-      "前端样式使用 `CSS` 构建，以及用 `JavaScript` 实现了部分交互功能"
-    ],
-    "stack": ["Python", "Flask", "Markdown", "HTML", "CSS"],
-    "compatibility": "IE9+"
+   "experience": [{
+     "type": "project",
+     "techtype": "backtend",
+     "project_type": "personal",
+     "name": "个人网站",
+     "source": "https://tokaya.cc",
+     "demo": "https://github.com/Tokaya/web",
+     "description": [
+       "现有基本的注册用户，登陆，微博，博客，论坛等功能",
+       "微博实现了带用户头像的评论，删除自己的微博；博客、论坛可发表支持部分markdown语法的文本",
+       "后端使用 `Flask` 开发，使用了 `MySQL` 作为数据库"
+       "前端样式使用 'CSS' 构建，以及用 'JavaScript' 实现了部分交互功能"
+   ]
   }, {
     "type": "project",
     "techtype": "frontend",
@@ -69,40 +67,36 @@
     "name": "打砖块游戏",
     "source": "https://github.com/Tokaya/Breakout-Clone",
     "description": [
-      "使用 `Python` + `Cocos2d` 实现的一个打砖块游戏",
+      "使用 'Python' + 'Cocos2d' 实现的一个打砖块游戏",
       "完成了基本的菜单选项，场景切换，关卡编辑等功能"
-      ],
-    "stack": ["Python", "Cocos2d"],
-    "compatibility": "IE9+"
+    ]
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
     "name": "扫雷demo",
-    "source": "https://github.com/Tokaya/Minesweeper",
+    "source": "https://github.com/joyeecheung/virtual-bookcase",
     "description": [
-      "用 `Python` + `Turtle` 实现了一个扫雷游戏的小样"
-    ],
-    "stack": ["Python", "Turtle"],
-    "compatibility": "IE10+"
+      "用 'Python' + 'Turtle' 实现了一个扫雷游戏的小样",
+    ]
   }],
   "skills": [{
     "type": "backend",
     "item": [{
       "summary": "`Python`",
       "description": [
-        "平时主要使用 `Python` 开发",
-        "熟悉 `Python` 语法"
+        "平时主要使用 'Python' 开发",
+        "熟悉 'Python' 语法",
       ]
     }, {
-      "summary": "`Flask`",
+      "summary": "'Flask'",
       "description": [
-        "项目使用 `Flask Web` 开发框架, `SQLAlchemy` 进行数据库开发, 以及使用 `MySQL`、`SQLite` 作为数据库"
+        "项目使用 'Flask Web' 开发框架, 'SQLAlchemy' 进行数据库开发, 以及使用 'MySQL'、'SQLite' 作为数据库",
       ]
     }, {
-      "summary": "`其他`",
+      "summary": "'其他'",
       "description": [
-        "了解HTTP 协议, 会用抓包软件分析、定位、解决问题"
+        "了解HTTP 协议, 会用抓包软件分析、定位、解决问题",
       ]
     }]
   }, {
@@ -114,26 +108,28 @@
         "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
       ]
     }, {
-      "summary": "`jQuery`",
+      "summary": "`jQuery'",
       "description": [
         "熟悉 `jQuery` / `Font Awsone` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "能用 `Ajax` 实现与后端交互"
+        "能用 'Ajax' 实现与后端交互"
       ]
     }, {
       "summary": "`DOM` / `BOM` 及常见 `Web API`",
       "description": [
-        "熟悉原生 `DOM` 的使用及相关标准（W3C）"
+        "熟悉原生 `DOM` 的使用及相关标准（W3C）",
       ]
     }]
   }, {
-    "type": "miscellaneous",
-    "item": [
-      "熟悉Linux基本操作和命令",
-      "了解MVC架构",
-      "在 `Windows` 下，日常使用 `Pycharm`、`Atom` 开发",
-      "在 `Linux` 下，使用 `nano` 开发",
-      "平时使用 `Git` 管理版本，常用 `Github客户端` 和 `SourceTree` 等工具",
-      "能用 `Photoshop` 做一些设计"
-    ]
-  }]
+      "type": "其他",
+      "item": [{
+        "summary": "`HTML` / `CSS`",
+        "description": [
+            "熟悉Linux基本操作和命令",
+            "了解MVC架构",
+            "在 'Windows' 下，日常使用Pycharm、Atom开发"
+            "在 'Linux' 下，使用 'nano' 开发"
+            "平时使用 'Git' 管理版本，常用 'Github客户端' 和 'SourceTree' 等工具"
+            "能用 'Photoshop' 做一些设计"
+        ]
+      }]
 }
